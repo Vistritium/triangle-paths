@@ -1,13 +1,6 @@
 package trianglepaths
 
-import akka.actor.ActorSystem
-import akka.stream.scaladsl.{Framing, Sink, StreamConverters}
-import akka.stream.{ActorMaterializer, Materializer}
-import akka.util.ByteString
-
-import scala.concurrent.Await
 import scala.io.StdIn
-import scala.concurrent.duration._
 
 object Main extends App {
 

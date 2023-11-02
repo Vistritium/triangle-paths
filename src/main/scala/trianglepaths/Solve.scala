@@ -1,7 +1,5 @@
 package trianglepaths
 
-import scala.collection.mutable
-
 object Solve {
 
   private case class TrianglePath(
