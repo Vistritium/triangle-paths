@@ -24,7 +24,6 @@ object Main extends App {
 
 
   val input = readInput()
-  println(s"input is \n${input}")
   val result = Solve.solve(input)
   println(s"Minimal path is: ${result.mkString(" + ")} = ${result.sum}")
 
