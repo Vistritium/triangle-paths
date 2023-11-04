@@ -5,5 +5,7 @@ ThisBuild / scalaVersion := "2.13.12"
 lazy val root = (project in file("."))
   .settings(
     name := "triangle-paths",
-    libraryDependencies ++= Seq()
+    libraryDependencies ++= Seq(
+      "org.typelevel" %% "cats-effect" % "3.6-0142603"
+    )
   )
